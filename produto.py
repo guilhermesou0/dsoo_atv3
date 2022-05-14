@@ -59,6 +59,5 @@ class Produto:
     def cliente(self, cliente):
         self.__cliente = cliente
 
-    def preco_total(preco_unitario, quantidade):
-        preco_total = preco_unitario * quantidade
-        return preco_total
+    def preco_total(self):
+        return self.__preco_unitario * self.__quantidade
